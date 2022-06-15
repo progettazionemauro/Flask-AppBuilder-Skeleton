@@ -16,3 +16,5 @@ Base Skeleton to start your application using Flask-AppBuilder
 
 
 That's it!!
+
+Vedere qui: https://flask-appbuilder.readthedocs.io/en/latest/breaking.html
