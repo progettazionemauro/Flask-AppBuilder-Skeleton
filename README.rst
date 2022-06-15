@@ -3,6 +3,10 @@ Base Skeleton to start your application using Flask-AppBuilder
 Prima versione di FAB con trasferimento da: REPLIT --> GITHUB --> LOCALE
 --------------------------------------------------------------
 
+Seconda versione di FAB con trasferimento da: LOCALE --> GITHUB --> REPLIT
+--------------------------------------------------------------
+
+
 - Install it::
 
 	pip install flask-appbuilder
