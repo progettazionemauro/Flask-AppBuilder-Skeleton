@@ -12,14 +12,14 @@ class MyView(BaseView):
     def method1(self):
         # do something with param1
         # and return to previous page or index
-        return "Ciao Come Stai?"
+        return "Ahoo come stai?"
 
     @expose("/method2/<string:param1>")
     @has_access
     def method2(self, param1):
         # do something with param1
         # and render template with param
-        param1 = "Arrivederci alla prossima %s" % (param1)
+        param1 = "Bella aoh alla prossima %s" % (param1)
         return param1
 
     @expose("/method3/<string:param1>")
@@ -27,7 +27,7 @@ class MyView(BaseView):
     def method3(self, param1):
         # do something with param1
         # and render template with param
-        param1 = "Stammi bene %s" % (param1)
+        param1 = "Riguardate! %s" % (param1)
         return self.render_template("method3.html", param1=param1)
 
 
